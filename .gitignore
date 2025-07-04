@@ -4,3 +4,15 @@ logs/
 /public/bundle.*
 /client/node_modules/
 node_modules/
+
+# Var files
+/var/**
+!/var/db/.gitkeep
+
+/.idea
+.bloop
+.bsp
+.metals
+.vscode
+project/project
+project/metals.sbt
